@@ -62,7 +62,7 @@ Breakdown of the results of the above query:
 - **Job Title Variety**: There are a variety of job titles such as Data Analyst, Director of Analytics, and Principal Data Analyst indicating that there are a variety of roles that can be filled as well as specializations within the field.
 
 
-![Top Paying Roles](assets\top_paying_jobs_visual.png)
+![Top Paying Roles](assets/top_paying_jobs_visual.png)
 *Bar graph visualizing the salary for the top 10 salaries for data analysts. Used Google Sheets to visualize the result set.*
 ### Skills Required for Top-Paying jobs
 In order to do this I built on top of the previous query by filtering for the skills required by each in order to create a list of jobs and skills that you can take a glance at.
@@ -83,7 +83,7 @@ Breakdown of the results of the above query:
 - **Overlap of skills**: There is much overlap between the different jobs and the skills that are demanded. For example: AT&T, Pinterest, and SmartAsset all demand sql, python, and excel.
 
 
-![Skill Count for top paying jobs](assets\Skill_count_for_top_10_jobs.png)
+![Skill Count for top paying jobs](assets/Skill_count_for_top_10_jobs.png)
 *Visualization to show the skill counts for the top 10 paying jobs. Created using Google Sheets*
 ### Most In-Demand skills for Data Analysts
 To identify the most In-Demand skills I counted the appearance of each skill for each of the posted jobs. This query highlights the specific skills that are the most sought after.
@@ -111,7 +111,7 @@ Breakdown of the results of the above query:
 - **Visualization**: Visualization skills are important considering both tableau and power bi made the top 5. Excel was the second most important skill lending to the importance of visualization as it also has those capabilities.
 
 
-![Most Demanded Skills](assets\in_demand_visual.png)
+![Most Demanded Skills](assets/in_demand_visual.png)
 *Visualization for the most in demand skills. Created using Google Sheets.*
 ### Which skills are associated with higher salaries
 With this query I took the average salary of the job postings that demanded each skill and presented them in descending order. This provides the opportunity to see which high paying jobs are associated with certain skills.
@@ -140,7 +140,7 @@ Breakdown of the results of the above query:
 - **Emphasis on Tools**: Jobs with the highest salaries tend to emphasize specific packages for coding language such as pyspark, and pandas. They also put an emphasis on experience with data and AI platforms such as couchbase, watson tools, and datarobot.
 
 
-![Top Paying Skills](assets\Top_Paying_Skills.png)
+![Top Paying Skills](assets/Top_Paying_Skills.png)
 *Visualization for the skills associated with the top paying jobs. Created using Google Sheets.*
 ### The most optimal skills to know
 With this query I filtered for the salary and the demand of each skill and ordered by both. It shows a clear view of the skills that provide the highest salaries and are also in demand.
